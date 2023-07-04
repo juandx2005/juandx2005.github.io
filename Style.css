@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-origin: border-box;
+    /*Quitar la margen que tiene por defecto la pagina*/
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.973);
+    /*Dando estilo a nuestro body
+    le estamos incando que lo que este dentro 
+    de este se ubique en el centro de la pagina*/
+    background-image: url(fondoxd.jpg);
+    background-size: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 220, 220);
+    border-radius: 50px;
+    height: 380px;
+    width: 200px;
+    padding: 20px 25px;
+    text-align: center;
+
+    /*indicar que los objetos que estan en nustro 
+    formulario esten en columna*/
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*tipo 
+    de letra*/
+    font-size: 40px;
+}
+
+input{
+    margin: 15px;
+    border: none;
+}
+button{
+    border-radius: 30px;
+    /*le damos un borde redondo a nuestro boton*/
+    height: 40px;
+    margin-top: 20px;
+}
